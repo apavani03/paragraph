@@ -1,13 +1,18 @@
 function getParagraph1(){
-    var inputs=[]
-    inputs.join(" . ")
-    document.getElementById("showParagraph1").innerHTML=inputs.join(" . ");
+    var inputs1=[];
+    for(var i=1; i<=6; i++;){
+    inputs1.push(document.getElementById(""+i).value);
+    }
+    inputs1.join(" . ");
+    document.getElementById("showParagraph1").innerHTML=inputs1.join(" . ");
     
     }
 
     function getParagraph2(){
-        var inputs=[]
-        inputs.join(" . ")
-        document.getElementById("showParagraph2").innerHTML=inputs.join(" . ");
+        var inputs2=[];
+            for(var i=1; i<=6; i++;){
+    inputs2.push(document.getElementById(""+i).value);
+        inputs2.join(" . ");
+        document.getElementById("showParagraph2").innerHTML=inputs2.join(" . ");
         
         }
